@@ -14,7 +14,7 @@ function App() {
   // const store = createStore(reducer);//createstoru redux/index.js te kullandık
   const store = getStore()
   return (
-    <div className="app bg-dark">
+    <div className="app bg-dark text-light">
       <Provider store={store}>
         <BrowserRouter>
         <Navbar/>
